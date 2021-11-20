@@ -1,6 +1,6 @@
 module.exports = {
   apps : [{
-    name: __dirname.split('/').pop(),
+    name: IbrTest.split('/').pop(),
     script: 'index.js',
     args: '',
     autorestart: true,
